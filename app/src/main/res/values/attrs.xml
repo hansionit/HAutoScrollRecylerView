@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="HAutoScrollRecylerView">
+        <attr name="interpolator">
+            <enum name="LinearInterpolator " value="0" />
+            <enum name="AccelerateInterpolator" value="1" />
+            <enum name="DecelerateInterpolator" value="2" />
+            <enum name="AccelerateDecelerateInterpolator " value="3" />
+        </attr>
+        <attr name="speed" format="float" />
+        <attr name="itemSpace" format="integer" />
+    </declare-styleable>
+</resources>
