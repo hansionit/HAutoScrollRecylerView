@@ -64,7 +64,7 @@ public class HAutoScrollRecylerView extends RecyclerView {
      * 设置条目间距
      * @param px 条目间距 单位px
      */
-    private void setItemSpace(int px) {
+    public void setItemSpace(int px) {
         addItemDecoration(new SpacesItemDecoration(px));
     }
 
